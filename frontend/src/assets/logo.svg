@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="60" viewBox="0 0 220 60" fill="none">
+  <!-- Gradient for text -->
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="100%" y2="0">
+      <stop offset="0%" stop-color="#FF4D4D"></stop>
+      <stop offset="100%" stop-color="#FFD700"></stop>
+    </linearGradient>
+  </defs>
+
+  <!-- Text -->
+  <text x="10" y="40" font-family="Arial Black, sans-serif" font-size="32" font-weight="bold" fill="url(#grad)">
+    CineSith
+  </text>
+
+  <!-- Small film icon -->
+  <circle cx="200" cy="30" r="12" stroke="white" stroke-width="3" fill="none"></circle>
+  <circle cx="200" cy="30" r="4" fill="white"></circle>
+  <rect x="196" y="16" width="8" height="4" fill="white"></rect>
+  <rect x="196" y="40" width="8" height="4" fill="white"></rect>
+</svg>

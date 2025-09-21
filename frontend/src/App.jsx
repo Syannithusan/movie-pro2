@@ -1,8 +1,12 @@
-import React from 'react'
+import NavBar from './components/NavBar'
+import Homepage from './pages/Homepage'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <NavBar/>
+      <Homepage/>
+    </div>
   )
 }
 

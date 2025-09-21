@@ -2,3 +2,10 @@ npm create vite@latest
 proj name : .
 
 use comnd : rafce
+
+>tailwind<
+npm install tailwindcss @tailwindcss/vite
+
+swiperJS
+
+npm i swiper
