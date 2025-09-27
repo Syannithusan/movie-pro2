@@ -1,5 +1,6 @@
 import React from 'react'
-import { Link, Search } from 'lucide-react'
+import {Search } from 'lucide-react'
+import { Link } from 'react-router'
 import logo from '../assets/logo.svg'
 
 const NavBar = () => {
@@ -7,9 +8,11 @@ const NavBar = () => {
     <nav className='bg-black text-gray-200 flex justify-between items-center p-4 
       h-20 text-sm md:text-[15px] font-medium text-nowrap'>
 
+      <Link to={"/"}>
         <img src={logo} alt="logo" className='w-32 h-10 cursor-pointer 
         brightness-125 '/>
-      
+      </Link>
+
       <ul className='hidden xl:flex space-x-6'>
         <li className='cursor-pointer hover:text-[#e50914]'>Home</li>
         <li className='cursor-pointer hover:text-[#e50914]'>Tv Shows</li>
