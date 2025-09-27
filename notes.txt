@@ -9,3 +9,4 @@ npm install tailwindcss @tailwindcss/vite
 swiperJS
 
 npm i swiper
+2.07
